@@ -25,6 +25,4 @@ router
     .then(val => res.json(val))
   })
 
-
-
 module.exports = router;

@@ -25,6 +25,9 @@ class App extends Component {
       this.setState({on: 'op'})
       this.setState({op: name})
       this.setState({on: 'second'})
+    } else if (on === 'second') {
+      second += name;
+      this.setState({ second })
     }
     // let value = evt.target.name;
     // this.setState({[on]: value})
